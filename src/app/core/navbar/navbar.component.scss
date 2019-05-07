@@ -36,3 +36,19 @@
   width: 32px;
   height: auto;
 }
+
+.show-mobile {
+ display: none;
+}
+.hide-mobile {
+  display: block;
+}
+
+@media (max-width: 640px) {
+  .show-mobile {
+    display: block;
+  }
+  .hide-mobile {
+    display: none;
+  }
+}
